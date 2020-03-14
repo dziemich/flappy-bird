@@ -5,6 +5,7 @@ Phaser jest opartym na HTML5 frameworkiem służącym do tworzenia gier. Jego ce
 
 
 ## Ptak
+Aby załadować ptaka i dać mu podstawowe właściwości fizyczne umieść poniższy snippet w pliku **main.js**
 ```javascript
 {
 preload: () => { 
@@ -97,7 +98,7 @@ W funkcji __update()__ włącz aktywowanie kolizji:
 game.physics.arcade.overlap(this.bird, this.pipes, this.restartGame, null, this);
 ```
 
-## Dżwięki
+## Dźwięki
 W funkcji __preload()__ dodaj linijkę, która załaduje dźwięk skoku.
 ```javascript
 game.load.audio('jump', 'assets/jump.wav'); 
