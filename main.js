@@ -12,6 +12,25 @@ const mainState = {
 
     update: () => {
         // Ta funkcja zawiera logikę gry. Wywoływana jest ciągle, 60 razy na sekundę.
+        // Zadanie 1
+    },
+
+    jump: () => {
+        // Zadanie 2
+    },
+
+    restartGame: () => {
+        // Zadanie 3
+    },
+    addOnePipe: (x, y) => {
+
+    },
+    addRowOfPipes: function() {
+        // Wylosuj pozycję dziury
+        var hole = Math.floor(Math.random() * 5) + 1;
+
+        // Zadanie 4
+        // Zadanie 5
     },
 };
 
